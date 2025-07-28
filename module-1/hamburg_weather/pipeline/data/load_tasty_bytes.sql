@@ -322,7 +322,7 @@ FROM @{{env}}_tasty_bytes.public.s3load/raw_pos/truck/;
 COPY INTO {{env}}_tasty_bytes.raw_customer.customer_loyalty
 FROM @{{env}}_tasty_bytes.public.s3load/raw_customer/customer_loyalty/;
 
-
+-- redo
 -- order_header table load
 COPY INTO {{env}}_tasty_bytes.raw_pos.order_header
 FROM @{{env}}_tasty_bytes.public.s3load/raw_pos/subset_order_header/;
