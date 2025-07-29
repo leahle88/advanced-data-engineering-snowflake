@@ -28,7 +28,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Determine environment based on target branch
+      # Determine environment based on target branch - redo action
       - name: Set environment
         id: set_env
         run: |
